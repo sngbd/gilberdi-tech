@@ -20,3 +20,22 @@
   margin-top: 20px;
   font-weight: 500;
 }
+@media only screen and (max-width: 1280px) {
+  .header h2 {
+    font-size: 2.5em;
+  }
+  .header h3 {
+    font-size: 1.5em;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .header {
+    display: inline-block;
+  }
+  .header h2 {
+    font-size: 2em;
+  }
+  .header h3 {
+    font-size: 1em;
+  }
+}
