@@ -24,7 +24,6 @@ export default function Navbar() {
         <Link to="/">Home</Link>
         <Link to="/contacts">Contacts</Link>
         <Link to="/projects">Projects</Link>
-        <Link to="../../resume.pdf">Resume</Link>
       </div>
     </nav>
   )
